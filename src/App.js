@@ -26,6 +26,7 @@ function App() {
        <img src={logo} 
             className="img-logo"
             alt="Logo de Calculadora" />
+        <h2>Calculadora React - Giancarlo Chunga Acosta</h2>
      </div>
      <div className="contenedor-calculadora">
         <Pantalla input={input} />
@@ -55,7 +56,7 @@ function App() {
         </div>
         <div className='fila'>
           <BotonClear manejarClear={() => setInput('')}>
-            Clear
+            Limpiar
           </BotonClear>
         </div>
      </div>

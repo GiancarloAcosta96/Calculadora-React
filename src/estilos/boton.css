@@ -6,21 +6,23 @@
     align-items: center;
     font-weight: bold;
     font-size: 38px;
-    background-color: #1b1b32;
     color: white;
-    border-radius: 25px;
-    border: 2px solid white;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    border-radius: 26px;
+    background: linear-gradient(145deg, #000, #333);
+    box-shadow: 5px 5px 10px #9b9b9b,
+    -5px -5px 10px #ffffff;
 }
 
-.boton-contenedor:hover {
-    background-color: #FFF;
-    color: #000;
+.boton-contenedor:active {
+    box-shadow: none;
 }
 
 .operador {
-    background-color: #00471b;
-
+    border-radius: 26px;
+    background: linear-gradient(145deg, #2b22b4, #0d0f87);
+    box-shadow: 5px 5px 10px #9b9b9b,
+    -5px -5px 10px #ffffff;
 }

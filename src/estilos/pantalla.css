@@ -1,15 +1,16 @@
 .input {
     height: 75px;
-    border-radius: 50px;
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
     font-size: 30px;
-    background-color: #0a0a23;
-    color: white;
+    color: #000;
     padding: 11px 30px 11px 11px;
     margin: 1px solid #888;
-    box-shadow: -1px 4px 1px 1px white;
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #9b9b9b,
+    inset -5px -5px 10px #ffffff;
 }

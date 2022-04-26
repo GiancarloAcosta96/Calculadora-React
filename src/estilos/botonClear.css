@@ -3,18 +3,18 @@
     font-size: 1.6em;
     display: flex;
     flex: 1;
-    background-color: #ff0000;
     margin-top: 8px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: white;
-    border: 2px solid #FFF;
     cursor: pointer;
-    border-radius: 25px;
+    color: #FFF;
+    border-radius: 26px;
+    background: linear-gradient(145deg, #0f510d, #077d21);
+    box-shadow: 5px 5px 10px #9b9b9b,
+    -5px -5px 10px #ffffff;
 }
 
-.boton-clear:hover {
-    background-color: #000;
-    color: #FFF;
+.boton-clear:active {
+    box-shadow: none;
 }
